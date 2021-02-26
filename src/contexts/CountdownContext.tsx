@@ -20,7 +20,7 @@ const CountdownProvider = ({ children }: CountdownProviderProps): JSX.Element =>
 
   const { startNewChallenge } = useContext(ChallengesContext);
 
-  const [time, setTime] = useState(0.05 * 60);
+  const [time, setTime] = useState(25 * 60);
   const [isActive, setActive] = useState(false);
   const [hasFinished, setFinished] = useState(false);
 
